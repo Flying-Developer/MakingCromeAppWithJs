@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+:root {
+  /*color*/
+  --white-color: white;
+  --black-color: black;
+  --green-color: green;
+
+  /*size*/
+  --side-padding: 12px;
+  --font-large: 18px;
+  --font-small: 8px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--side-padding);
+  background: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+body #clock {
+  font-size: 50px;
+}
+body #todo-form {
+}
+body #todo-list {
+}
+
+#weather {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.hidden {
+  display: none;
+}
